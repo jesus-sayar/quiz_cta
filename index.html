@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Trivial CTA</title>
+    <style media="screen">
+      #intro p {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      #progress {
+        visibility: hidden;
+        border-radius: 0px;
+        height: 2.2rem;
+      }
+      .progress {
+        height: 10px;
+        margin: 30px 0;
+      }
+      .progress > svg {
+        height: 100%;
+        display: block;
+      }
+      #question{
+        margin: 30px 0;
+        font-size: 1.2rem;
+      }
+      #answers {
+        font-size: 1.2rem;
+      }
+      #answers li span{
+        margin-right: 10px;
+        font-weight: bold;
+      }
+      #control {
+        text-align: center;
+      }
+      #solutions .question {
+        display: block;
+      }
+
+      #solutions .solution {
+        display: block;
+      }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div id="intro">
+        <p>Bienvenido al Quiz CTA! Comieza tu próximo examen, animo!</p>
+        <div id="control">
+          <input type="button" value="COMENZAR!" id="start" class="btn btn-success">
+        </div>
+      </div>
+      <div id="query">
+        <div class="progress" id="progress"></div>
+        <div id="question"></div>
+        <div id="answers"></div>
+      </div>
+      <div id="solutions"></div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
