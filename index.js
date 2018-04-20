@@ -11,35 +11,35 @@ $( document ).ready(function() {
   }
 
   function get_json_quiz(){
-    var json = {
-      "quiz": [
-        {
-          "question": "Este es el cuerpo de la PRIMERA pregunta",
-          "answers": {"A": "Repuesta Prim A", "B": "Respuesta Prim B", "C": "Respuesta Prim C"},
-          "solution": "A",
-          "duration": 5
-        },
-        {
-          "question": "Este es el cuerpo de la SEGUNDA pregunta",
-          "answers": {"A": "Repuesta Seg A", "B": "Respuesta Seg B", "C": "Respuesta Seg C"},
-          "solution": "B",
-          "duration": 10
-        },
-        {
-          "question": "Este es el cuerpo de la TERCERA pregunta",
-          "answers": {"A": "Repuesta Ter A", "B": "Respuesta Ter B", "C": "Respuesta Ter C"},
-          "solution": "C",
-          "duration": 2
-        },
-        {
-          "question": "Este es el cuerpo de la CUARTA pregunta",
-          "answers": {"A": "Repuesta Ter A", "B": "Respuesta Ter B", "C": "Respuesta Ter C"},
-          "solution": "C",
-          "duration": 20
-        }
-      ]
-    }
-    return json;
+    // var json = {
+    //   "quiz": [
+    //     {
+    //       "question": "Este es el cuerpo de la PRIMERA pregunta",
+    //       "answers": {"A": "Repuesta Prim A", "B": "Respuesta Prim B", "C": "Respuesta Prim C"},
+    //       "solution": "A",
+    //       "duration": 5
+    //     },
+    //     {
+    //       "question": "Este es el cuerpo de la SEGUNDA pregunta",
+    //       "answers": {"A": "Repuesta Seg A", "B": "Respuesta Seg B", "C": "Respuesta Seg C"},
+    //       "solution": "B",
+    //       "duration": 10
+    //     },
+    //     {
+    //       "question": "Este es el cuerpo de la TERCERA pregunta",
+    //       "answers": {"A": "Repuesta Ter A", "B": "Respuesta Ter B", "C": "Respuesta Ter C"},
+    //       "solution": "C",
+    //       "duration": 2
+    //     },
+    //     {
+    //       "question": "Este es el cuerpo de la CUARTA pregunta",
+    //       "answers": {"A": "Repuesta Ter A", "B": "Respuesta Ter B", "C": "Respuesta Ter C"},
+    //       "solution": "C",
+    //       "duration": 20
+    //     }
+    //   ]
+    // }
+    return quiz_json;
   }
 
   function start_quiz(json_quiz){
@@ -86,7 +86,7 @@ $( document ).ready(function() {
     $("#question").text(query["question"]);
     answers = "<ul>"
     $.each(query["answers"], function( key, value ) {
-      answers+= "<li><span>"+key+"</span>"+value+"</li>"
+      answers+= "<li><span>"+key+")</span>"+value+"</li>"
     });
     answers+="</ul>"
     $("#answers").html(answers);
