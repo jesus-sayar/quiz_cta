@@ -11,34 +11,6 @@ $( document ).ready(function() {
   }
 
   function get_json_quiz(){
-    // var json = {
-    //   "quiz": [
-    //     {
-    //       "question": "Este es el cuerpo de la PRIMERA pregunta",
-    //       "answers": {"A": "Repuesta Prim A", "B": "Respuesta Prim B", "C": "Respuesta Prim C"},
-    //       "solution": "A",
-    //       "duration": 5
-    //     },
-    //     {
-    //       "question": "Este es el cuerpo de la SEGUNDA pregunta",
-    //       "answers": {"A": "Repuesta Seg A", "B": "Respuesta Seg B", "C": "Respuesta Seg C"},
-    //       "solution": "B",
-    //       "duration": 10
-    //     },
-    //     {
-    //       "question": "Este es el cuerpo de la TERCERA pregunta",
-    //       "answers": {"A": "Repuesta Ter A", "B": "Respuesta Ter B", "C": "Respuesta Ter C"},
-    //       "solution": "C",
-    //       "duration": 2
-    //     },
-    //     {
-    //       "question": "Este es el cuerpo de la CUARTA pregunta",
-    //       "answers": {"A": "Repuesta Ter A", "B": "Respuesta Ter B", "C": "Respuesta Ter C"},
-    //       "solution": "C",
-    //       "duration": 20
-    //     }
-    //   ]
-    // }
     return quiz_json;
   }
 
@@ -46,9 +18,12 @@ $( document ).ready(function() {
     // OCULTAR PANTALLA DE INICIO
     hide_intro();
 
+    // SELECCIONAR PREGUNTAS
+    queries = get_random_queries(json_quiz["quiz"]);
+
     seconds = 0;
     // MOSTAR TODAS LAS PREGUNTAS
-    json_quiz["quiz"].forEach(function(query) {
+    queries.forEach(function(query) {
       setTimeout(function(){
         show_progress(query["duration"]);
         show_query(query);
@@ -57,14 +32,14 @@ $( document ).ready(function() {
     });
     // MOSTRAR LAS SOLUCIONES
     setTimeout(function(){
-      show_solutions();
+      show_solutions(queries);
     }, 1000 * seconds);
   }
 
-  function show_solutions(json_quiz){
+  function show_solutions(queries){
     $('#query').remove();
     solutions = "<ul>"
-    json["quiz"].forEach(function(query) {
+    queries.forEach(function(query) {
       solutions+= "<li><span class='question'>"+query["question"]+"</span><span class='solution'>"+query["solution"]+") "+query["answers"][query["solution"]]+"</span></li>"
     });
     solutions+="</ul>"
@@ -95,6 +70,17 @@ $( document ).ready(function() {
   function hide_intro(){
     $("#intro").remove();
     $('#progress').css("visibility", "visible");
+  }
+
+  function get_random_queries(all_queries){
+    num_queries = 15;
+    random_queries = [];
+    for (i = 0; i < num_queries; i++) {
+      random_index = Math.floor(Math.random()*all_queries.length)
+      query = all_queries[random_index];
+      random_queries.push(query);
+    };
+    return random_queries;
   }
 
 });

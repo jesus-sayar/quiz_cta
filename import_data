@@ -2,6 +2,8 @@
 
 import re
 import json
+import traceback
+
 
 file = open("data.txt", "r")
 file_data = file.read()
@@ -14,24 +16,30 @@ for element in list:
     question = re.search("^\d+-.*", element).group(0)
     query["question"] = question
 
-    # RESPUESTAS
-    answers = {}
-    pattern = re.compile(r"[A-D]-.*")
-    for answer_raw in re.findall(pattern, element):
-        letter = re.search("^[A-D]", answer_raw).group(0)
-        answer = re.split("^[A-D]-", answer_raw)[1]
-        answers[letter] = answer
-    query["answers"] = answers
+    try:
+        # RESPUESTAS
+        answers = {}
+        pattern = re.compile(r"[A-D]-.*")
+        for answer_raw in re.findall(pattern, element):
+            letter = re.search("^[A-D]", answer_raw).group(0)
+            answer = re.split("^[A-D]-", answer_raw)[1]
+            answers[letter] = answer
+        query["answers"] = answers
 
-    # SOLUCION
-    solution_raw = re.search("R->.*[A-D]$", element).group(0)
-    solution = re.search("[A-D]", solution_raw).group(0)
-    query["solution"] = solution
+        # SOLUCION
+        solution_raw = re.search("R->.*[A-D].*$", element).group(0)
+        solution = re.search("[A-D]", solution_raw).group(0)
+        query["solution"] = solution
 
-    # DURACION
-    query["duration"] = 5
+        # DURACION
+        query["duration"] = 40 #segs
 
-    json_quiz["quiz"].append(query)
+        json_quiz["quiz"].append(query)
+    except Exception:
+        print("Error in question: \n" + question)
+        print(traceback.format_exc())
+
 
 with open('data.json', 'w') as outfile:
     json.dump(json_quiz, outfile, ensure_ascii=False)
+    print("Data imported successful " + u"\U0001F37B")
