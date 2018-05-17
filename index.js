@@ -3,15 +3,17 @@ $( document ).ready(function() {
     main();
   });
 
-  function main() {
-    // Recuperar JSON de examen
-    json = get_json_quiz();
-    // Mostrar preguntas examen
-    start_quiz(json);
-  }
-
-  function get_json_quiz(){
-    return quiz_json;
+  function main(){
+    var json = {};
+    $.ajax({
+      url: 'http://127.0.0.1:5000',
+      success: function(response) {
+        start_quiz(response);
+      },
+      error: function() {
+        console.log("No se ha podido obtener la información");
+      }
+    });
   }
 
   function start_quiz(json_quiz){
@@ -19,7 +21,7 @@ $( document ).ready(function() {
     hide_intro();
 
     // SELECCIONAR PREGUNTAS
-    queries = get_random_queries(json_quiz["quiz"]);
+    queries = json_quiz["quiz"];
 
     seconds = 0;
     // MOSTAR TODAS LAS PREGUNTAS
@@ -38,23 +40,56 @@ $( document ).ready(function() {
 
   function show_solutions(queries){
     $('#query').remove();
+    $('.timer').remove()
     solutions = "<ul>"
+    var i = 1;
     queries.forEach(function(query) {
-      solutions+= "<li><span class='question'>"+query["question"]+"</span><span class='solution'>"+query["solution"]+") "+query["answers"][query["solution"]]+"</span></li>"
+      console.log(query);
+      if(query["reason"]){
+        reason = "<span class='reason'>"+ query["reason"] + "</span>"
+      } else {
+        reason = ""
+      }
+      solutions+= "<li><span class='question'>["+i+"] - "+query["question"]+"</span><span class='solution'>"+query["solution"]+") "+query["answers"][query["solution"]]+"</span>"+reason+"</li>"
+      i++;
     });
     solutions+="</ul>"
     $("#solutions").html(solutions);
   }
 
   function show_progress(seconds){
-    $('#progress').text("");
-    var line = new ProgressBar.Line('#progress', {
-        color: '#61e380',
-        strokeWidth: 2.1,
+    $('#progress').html("");
+    $('#counter').html("");
+    if(false){
+      var line = new ProgressBar.Line('#progress', {
+          color: '#61e380',
+          strokeWidth: 2.1,
+          duration: 1000 * seconds,
+          easing: 'linear'
+      });          
+    } else {
+      var line = new ProgressBar.Circle('#progress', {
+        strokeWidth: 6,
+        easing: 'linear',
         duration: 1000 * seconds,
-        easing: 'linear'
-    });
+        color: 'red',
+        trailColor: '#eee',
+        trailWidth: 2,
+        svgStyle: null
+      });
+    }
     line.animate(1);
+    update_time(seconds, $('#counter'));
+
+  }
+
+  function update_time(timeleft, $element){
+    $element.html(timeleft);
+    if(timeleft - 1> 0) {
+      setTimeout(function() {
+        update_time(timeleft - 1, $element);
+      }, 1000);
+    }
   }
 
   function show_query(query){
@@ -71,16 +106,4 @@ $( document ).ready(function() {
     $("#intro").remove();
     $('#progress').css("visibility", "visible");
   }
-
-  function get_random_queries(all_queries){
-    num_queries = 15;
-    random_queries = [];
-    for (i = 0; i < num_queries; i++) {
-      random_index = Math.floor(Math.random()*all_queries.length)
-      query = all_queries[random_index];
-      random_queries.push(query);
-    };
-    return random_queries;
-  }
-
 });

@@ -1535,7 +1535,7 @@ A-Ninguna respuesta es correcta.
 B-Para celebrar un gol.
 C-Para beber agua o recibir instrucciones.
 D-Para recibir tratamiento por una lesión.
-R-> B
+R-> C
 
 999-Si un jugador es expulsado antes del saque inicial y habiendo sido entregada la lista...
 A-Puede ser reemplazado por uno de los sustitutos designados.
@@ -1556,4 +1556,114 @@ A-4
 B-3
 C-5
 D-6
+R-> C
+
+345-Según las Reglas de Juego, utilizar un micrófono en la solapa para pedir una camilla o ambulancia, puede hacerlo:
+A-El capitán del equipo.
+B-El médico.
+C-El club antes del comienzo establece si será el entrenador, delegado, etc.
+R-> B
+
+745-¿Cuál de las siguientes afirmaciones es correcta?
+A-Un jugador expulsado se considera un agente externo.
+B-Todas son incorrectas.
+C-Un jugador sustituido deberá irse al vestuario y no podrá continuar presenciando el partido en el banquillo.
+D-El entrenador y todas aquellas personas que se encuentren en el banquillo se consideran miembros del cuerpo técnico
+R-> B
+
+470-¿En qué regla aparece un apartado sobre el capitán?
+A-En ninguna de las dos.
+B-En la Regla 5.
+C-En la Regla 3.
+R-> C
+
+252-¿Qué soluciones se adoptarán si en la ejecución de un saque de banda se producen estas tres circunstancias? A- El jugador que lo realiza lo hace desde una distancia de más de tres metros en paralelo a la línea de banda. B- El lanzamiento del balón no llega a traspasar la línea de banda. C- El balón traspasa la línea de banda pero antes de hacerlo toca el suelo.
+A-A- no hay ninguna incorrección de saque en cuanto a la distancia. Y en los supuestos B- y C- se deberá repetir el saque por un jugador del mismo equipo que lo efectuó con anterioridad.
+B-A- la ejecución se debe repetir a favor del equipo contrario. B- se deberá repetir el saque a favor del equipo contrario. C- se repetirá dicho saque por el mismo equipo que lo efectúo con anterioridad.
+C-A- no hay ninguna incorrección en cuanto a la distancia. B- el saque será repetido a favor del equipo contrario. C- el saque deberá repetirse por un jugador del mismo equipo que lo efectuó con anterioridad.
+R-> A
+
+199-Un jugador (que no es el portero) de un  equipo que disputa el partido con 7 jugadores evita con mano intencionada una ocasión manifiesta de gol dentro de su propia área penal, el arbitro:
+A-Expulsa al jugador y reanuda el juego con un tiro libre indirecto.
+B-Expulsa al jugador y reanuda el juego con un tiro penal.
+C-Expulsa al jugador y finaliza el partido.
+R-> C
+
+673-La señal del árbitros asistente adicional...
+A-Deberá  extender el brazo izquierdo horizontalmente hacia el centro del terreno de juego cuando se marque un gol.
+B-Deberá  extender el brazo izquierdo horizontalmente hacia el centro del terreno de juego cuando se marque un gol. Se le permite hacer un gesto discreto para indicar que hay que sancionar una situación de fuera de juego.
+C-Deberá  extender el brazo izquierdo horizontalmente hacia el centro del terreno de juego cuando se marque un gol, a menos que el balón haya traspasado claramente la línea de meta.
+D-No deberá hacer ningún gesto. Deberá usar los comunicadores o señal electrónica VIP para indicar al árbitro sus opiniones.
+R-> C
+
+41-Un suplente, desde el área técnica, lanza una botella a un jugador rival situado dentro del terreno de juego y le alcanza en la cabeza produciéndole una brecha.
+A-El árbitro expulsará al suplente y reanudará con tiro libre indirecto donde el objeto golpeó al jugador.
+B-El árbitro expulsará al suplente y reanudará con tiro libre directo o penal donde el objeto golpeó al jugador.
+C-El árbitro expulsará al suplente y reanudará con tiro libre indirecto donde estuviera el balón cuando se produjo el hecho.
+D-Ninguna es correcta.
+R-> B
+
+899-Durante la tanda de penaltis, un equipo se queda con menos de siete jugadores, debido a que el árbitro expulsa a un jugador por llevarse las manos a los testículos.
+A-El árbitro ordena suspender definitivamente el partido.
+B-El árbitro ordena que el equipo rival reduzca el número de jugadores hasta reducirlo a seis y continuar con la tanda.
+C-Ninguna es correcta.
+D-El árbitro ordena que continúen los lanzamientos hasta que haya un equipo ganador.
+R-> B
+
+312-El árbitro decreta 3 minutos de tiempo añadido. En el 92:50 decreta tiro penal. Después de una correcta ejecución, tras recorrer 4 metros se para en un charco de agua. Decisión.
+A-Balón a tierra y cuando el balón deje de estar en juego, finaliza el partido.
+B-Repetir el penal.
+C-Finalizar el partido.
+R-> C
+
+58-Un jugador que se encuentra temporalmente fuera del terreno de juego, estando el balón en juego, lanza un objeto con fuerza excesiva que es pateado con su pie, hacia el interior del campo contra un jugador rival, interfiriendo en el juego.
+A-El árbitro detendrá el juego, expulsará al infractor y reanudará el juego con un tiro libre o penalti.
+B-El árbitro detendrá el juego, expulsará al infractor y reanudará el juego con un TLI donde estaba el balón.
+C-El árbitro detendrá el juego, expulsará al infractor y reanudará el juego con un TLD o penalti.
+R-> C
+
+908-Indique la afirmación correcta
+A-Todas son incorrectas.
+B-El entrenador y los demás integrantes de la lista del equipo se consideran miembros del cuerpo técnico
+C-En relación con una interferencia de un agente externo, si el balón va a entrar en la portería y dicha interferencia no impide que un jugador juegue el balón se concederá gol.
+D-Toda persona no inscrita en la lista del equipo como jugador o miembro del cuerpo técnico es un agente externo.
+R-> A
+
+318-¿Cuál de los siguientes es uno de los procedimientos para determinar el ganador de un partido?
+A-Dos periodos de tiempo suplementario que no excedan los 15 minutos cada uno.
+B-Dos periodos suplementarios de 15 minutos cada uno.
+C-Dos periodos iguales de tiempo suplementario como mínimo de 15 minutos cada uno.
+D-Dos periodos iguales de tiempo suplementario que no excedan los 15 minutos cada uno.
+R-> D
+
+577-¿Quién establece la duración de la pausa del medio tiempo?
+A-El organizador de la competición, siendo el máximo de 15 minutos.
+B-El reglamento de la competición, siendo el máximo de 15 minutos.
+C-El organizador de la competición, siendo el mínimo de 10 minutos.
+D-El árbitro, siendo el máximo de 15 minutos.
+R-> B
+
+240-¿Cuál de las siguientes respuestas no es correcta?
+A-Entre otras modificaciones permitidas a las reglas de juego corresponden; tamaño, peso y material del balón, duración de los tiempos del partido y la distancia entre los postes de meta y altura del travesaño.
+B-En los campos en los que se use el sistema de detector automático de goles se podrá modificar la estructura de las porterías.
+C-Se permiten modificaciones a las reglas de juego en partidos disputados por menores de 15 años, equipos femeninos, jugadores con discapacidades y jugadores veteranos mayores de 35 años.
+R-> C
+
+67-Un jugador va a ejecutar rápidamente una falta cuando un rival situado a 9 metros obstaculiza el envío a un compañero, el árbitro amonesta al jugador por...
+A-Conducta antideportiva.
+B-No repetar la distancia reglamentaria.
+C-Retardar la reanudación del juego.
+R-> C
+
+608-¿Cuándo deben estar en total disposición de acceder al campo los futbolistas de ambos equipos?
+A-A la hora establecida para el inicio del juego.
+B-5 minutos antes de la hora establecida para el inicio del juego.
+C-15 minutos antes de la hora establecida para el inicio del juego.
+D-10 minutos antes de la hora establecida para el inicio del juego.
+R-> B
+
+321-Durante el lanzamiento de una tanda de penaltis...
+A-El árbitro asistente se ubicará en la intersección del área de penal con la línea de meta. Si hubiera árbitros asistentes adicionales, uno de ellos se colocará en la intersección de la línea de meta con el área penal y el árbitro asistente a la altura del punto de penalti.
+B-Un árbitro asistente se colocará en la intersección de la línea de meta con el área de meta y el otro en el círculo central.
+C-Un árbitro asistente se colocará en la intersección de la línea de meta con el área de meta y el otro en el círculo central. Si hubiera árbitros asistentes adicionales, serán éstos los que se coloquen en la intersección de la línea de meta con el área de meta, a cada lado de la portería y los árbitros asistentes en el círculo central.
 R-> C

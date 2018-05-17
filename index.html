@@ -15,13 +15,41 @@
         border-radius: 0px;
         height: 2.2rem;
       }
-      .progress {
+      #progress div {
+        display: block;
+      }
+     .line_progress {
         height: 10px;
-        margin: 30px 0;
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+      #circle_timer{
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+      }
+      #counter {
+        font-weight: bold;
+      }
+      .circle_progress{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 80px; 
+      }
+      .circle_counter{
+        width: 100px;
+        position: absolute;
+        top: 36px;
       }
       .progress > svg {
         height: 100%;
         display: block;
+      }
+      #query {
+        margin-top: 130px;
       }
       #question{
         margin: 30px 0;
@@ -56,17 +84,24 @@
         <div id="control">
           <input type="button" value="COMENZAR!" id="start" class="btn btn-success">
         </div>
+      </div>     
+      <div id="circle_timer" class="timer">
+        <div id="counter" class="circle_counter"></div>
+        <div id="progress" class="circle_progress"></div>
       </div>
+
+<!--       <div id="line_timer" class="timer">
+        <div id="counter" class="line_counter"></div>
+        <div id="progress" class="line_progress progress"></div>
+      </div>    --> 
       <div id="query">
-        <div class="progress" id="progress"></div>
         <div id="question"></div>
         <div id="answers"></div>
       </div>
       <div id="solutions"></div>
 
     </div>
-    <script type="text/javascript" src="./data.json"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>  
     <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>
     <script src="./index.js"></script>
   </body>
