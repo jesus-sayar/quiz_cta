@@ -1,0 +1,117 @@
+Después de que el árbitro de la señal para ejecutar un penalti y antes de que el balón esté en juego, un compañero del ejecutor se sitúa a menos de 9,15 metros
+A-Si es gol, el penalti se repetirá y el jugador será amonestado
+B-Si no es gol, el árbitro señalará tiro libre indirecto en el lugar en el que el jugador se situó a menos de 9,15 metros
+C-Si el balón se va fuera, el árbitro señalará saque de meta
+D-Ninguna de las anteriores es correcta
+R-> B
+
+¿En qué mano, como norma general, deben llevar los asistentes el banderín?
+A-En la izquierda
+B-En la derecha
+C-En la más cercana al árbitro
+D-En la que esté más cerca de la línea de banda
+R-> C
+
+Un jugador realiza una finta ilegal durante una tanda de penaltis. No hay más infracciones. El árbitro…
+A-Señalará tiro libre indirecto y amonestará al jugador
+B-Podrá mandar repetir el penalti y amonestará al jugador
+C-Ambas pueden ser correctas
+D-Dará el penalti por fallado y amonestará al jugador
+R-> D
+
+¿Cuando estará el balón en juego en un tiro libre dentro del área de penalti?
+A-Cuando sea pateado fuera del área de penalti
+B-Cuando es pateado y se mueve con claridad
+C-Ambas pueden ser correctas
+D-Ninguna de las anteriores es correcta
+R-> C
+E-> Ambas pueden ser correctas dependiendo de si es un TL ejecutado por atacante o por un defensor.
+
+Un jugador sustituto de cada equipo está en el interior del terreno de juego cuando uno de los equipos marca un gol, el árbitro...
+A-no concede el gol, amonesta a los jugadores por conducta antideportiva y los aleja del terreno de juego. Reanuda el partido con un tiro libre indirecto en el lugar donde se jugó por última vez el balón antes de entrar en la meta
+B-no concede el gol y amonesta a los jugadores por entrar en el terreno de juego sin permiso.
+C-no concede el gol, amonesta a los jugadores por entrar en el terreno de juego sin su permiso y los aleja del terreno de juego. Reanuda el partido con un balón a tierra en la línea de meta
+D-no concede el gol, amonesta a los jugadores por entrar en el terreno de juego sin su permiso. Reanuda el partido siempre con un saque de meta
+R-> B
+
+Un jugador ejecuta un saque de banda hacia un adversario, pero antes de que el adversario toque el balón, el ejecutor lo toca voluntariamente con las manos e impide un ataque prometedor del equipo adversario. El árbitro...
+A-manda reanudar el juego con un tiro libre indirecto a favor del equipo adversario.
+B-lo expulsa por malograr una ocasión manifiesta de gol y manda reanudar el juego con un tiro libre directo a favor del equipo adversario.
+C-lo amonesta o expulsa y manda reanudar el juego con un tiro libre directo o tiro penal a favor del equipo adversario.
+D-lo amonesta por conducta antideportiva y manda reanudar el juego con un tiro libre directo a favor del equipo adversario.
+R-> C
+
+Un jugador sale del terreno de juego para poner en orden su calzado. ¿Puede autorizar el árbitro a que vuelva al terreno de juego mientras el balón está en juego?
+A-Sí, pero sólo puede reingresar en el terreno de juego por una de las líneas de banda.
+B-No
+C-Sí, pero sólo si el árbitro ha revisado al calzado.
+D-Sí, pero sólo si un miembro del equipo arbitral ha revisado el calzado antes de que vuelva a entrar.
+R-> D
+
+¿Cuál sera la duración de una exclusión temporal?
+A-Entre el 5% y 10% del tiempo total de juego
+B-Entre el 5% y 15% del tiempo total de juego
+C-Entre el 10% y 15% del tiempo total de juego
+R-> C
+
+Se ejecuta un saque de esquina y un defensa (no guardameta), situado a la distancia mínima reglamentaria sobre la línea de meta, intercepta el balón con la mano. ¿Qué debe señalar el árbitro?
+A-Si el campo tiene medidas para competición internacional, siempre será siempre tiro libre directo
+B-Si el campo tiene la medida mínima para competición nacional, será siempre penalti
+C-Ambas son correctas
+D-Ninguna de las anteriores es correcta
+R-> C
+
+Durante los tiros desde el punto de penalti para determinar el vencedor de un partido ,el guardameta comete una infracción pero obteniéndose el tanto igualmente.
+A-Amonestará al guardameta.
+B-No amonestará al guardameta.
+C-Amonestará al guardameta y mandará repetir el lanzamiento.
+R-> B
+
+¿Cuántas decisiones de International Board incluye el texto de la Regla 4?
+A-Tres
+B-Dos
+C-Ninguna
+D-Una
+R-> C
+
+¿Cuál de los siguientes elementos es obligatorio en un campo de fútbol?
+A-El césped, natural o artificial
+B-El punto del centro del campo
+C-Ambas son correctas
+D-Ninguna de las anteriores es correcta
+R-> B
+
+A player asks permission to leave the field of play, and on his way to the touchline, he strikes an opponent using excessive force. What decision should the referee make?
+A-The referee sends off the offending player and restarts play with a dropped ball.
+B-The referee sends off the offending player and restarts play with an indirect free kick.
+C-The referee sends off the offending player and restarts play with a direct free kick.
+D-Two of the answers may be correct.
+R-> C
+
+Can the captains, during the game, ask the referee to change the ball?
+A-Yes, the referee is obliged to check and change it.
+B-No, because the match began with a regulation ball.
+C-Yes, but it is the referee's decision whether to respond to the request or not.
+D-No, the players are not allowed to ask the referee to change the ball.
+R-> C
+
+Of the following infringements, indicate which is stated in the Laws of the Game as an offence punishable with a sending off under Law 12.
+A-Being guilty of violent conduct.
+B-Being guilty of serious foul play.
+C-Receiving a second caution in the same match.
+D-All are correct.
+R-> D
+
+The amount of additional time for injuries is at the discretion of the referee, but is it required?
+A-Yes, but only in the normal course of a match.
+B-No, the 4th official decides.
+C-No	
+D-Yes
+R-> D
+
+Can players wear a one-piece playing suit in place of shirts and shorts?
+A-No
+B-Depends on the Rules of the Competition.
+C-Yes, this is common.
+D-Yes, if the referee allows it.
+R-> A

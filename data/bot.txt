@@ -780,6 +780,7 @@ B-El jugador puede ser tratado en el campo si ésta se realiza con rapidez.
 C-El jugador no puede ser tratado en el campo.
 D-Ninguna es correcta.
 R-> B
+E-> Si en la acción hay contacto entre los jugadores puede ser atendido dentro. El agarrón implica contacto entre jugadores por tanto puede ser atendido dentro, indendientemente que la lesión fuera por la caida.
 
 541-¿Cuándo no es necesario detener el juego?
 A-Por una infracción a la regla 4.
@@ -1667,3 +1668,78 @@ A-El árbitro asistente se ubicará en la intersección del área de penal con l
 B-Un árbitro asistente se colocará en la intersección de la línea de meta con el área de meta y el otro en el círculo central.
 C-Un árbitro asistente se colocará en la intersección de la línea de meta con el área de meta y el otro en el círculo central. Si hubiera árbitros asistentes adicionales, serán éstos los que se coloquen en la intersección de la línea de meta con el área de meta, a cada lado de la portería y los árbitros asistentes en el círculo central.
 R-> C
+
+324-Un jugador que ha salido del terreno de juego para recibir atención médica, regresa a éste sin autorización, el árbitro...
+A-Detiene el juego, salvo aplicación de ventaja, y amonesta al jugador por entrar al terreno de juego sin permiso, reanudando con un tiro libre indirecto donde se hallaba el balón.
+B-La respuesta a y b son correctas y complementarias a su vez.
+C-Detiene el juego, salvo aplicación de ventaja, y amonesta al jugador por entrar al terreno de juego sin permiso, reanudando con un tiro libre indirecto donde se encontraba el jugador.
+D-Detiene el juego, salvo aplicación de ventaja, y amonesta al jugador por entrar al terreno de juego sin permiso, reanudando con un tiro libre directo o penalti en el lugar donde se hallaba el balón , si interfiere.
+R-> A
+E-> No puede ser la D, porque la reanudación es donde hiciera la interferencia no donde estuviera el balon.
+
+1080-¿Hasta qué momento de un partido se pueden incorporar al juego el resto de jugadores hasta completar el número máximo, en caso de comenzar el encuentro con menos de 11?
+A-En ningún caso pueden incorporarse una vez comenzado el partido.
+B-En cualquier momento durante una interrupción del juego, con el permiso del árbitro, siempre que se hayan dado sus nombres al árbitro antes del inicio del partido, si las reglas de la competición lo estipulan.
+C-En cualquier momento del encuentro, en una interrupción del juego y con autorización del árbitro.
+D-Hasta el descanso del partido.
+R-> B
+
+906-¿A qué distancia debe encontrarse el jugador defensor en la ejecución de un tiro libre?
+A-A la distancia que quiera.
+B-Podrá estar a 2, 5.5, 9.15 o más distancia.
+C-Podrá estar a 5,5, 9,15 o más lejos.
+D-A 9,15 del balón.
+R-> C
+E-> En caso de que el TL se un Li en la linea del area de meta paralela a la linea de meta, el defensor se colocará a la linea del area de meta de la porteria, es decir a 5.5m.
+
+537-¿Quién llevará el control de los tiros desde el punto de penalti para decidir el ganador de un partido?
+A-Al no formar parte del partido no es necesario llevar el control de los tiros desde el punto de penalti, tan solo será necesario informar de quién es el ganador.
+B-Ninguna es correcta.
+C-El árbitro y el asistente que esté en la portería donde se lancen los penaltis serán quienes controlen los tiros. El otro árbitro asistente controlará a los jugadores que estén en el círculo central y el cuarto árbitro controlará las áreas técnicas.
+D-Todos los miembros del equipo arbitral.
+R-> B
+E-> En la tanda de penaltis el control de los tiros lo lleva solo el arbitro. Pag 92.
+
+504-Un jugador marca un gol estando doce jugadores de su equipo en el terreno de juego, y justo después de reanudarse el partido el árbitro se da cuenta de dicha circunstancia. ¿Qué debe hacer?
+A-Deja que el juego continúe y en la primera interrupción le hace abandonar el terreno de juego. Reanuda el juego conforme a las Reglas de Juego, reflejando el hecho en el informe del partido.
+B-Detiene el juego, amonesta al jugador extra, le hace abandonar el terreno de juego. Mantiene la decisión de otorgar el gol, manda reanudar el juego con un tiro libre, e informa a las autoridades sobre la situación.
+C-Detiene el juego y expulsa al jugador extra. Anula el gol, y reanuda el partido con un balón a tierra.
+D-Detiene el juego, amonesta al jugador extra, le hace abandonar el terreno de juego. Mantiene la decisión de otorgar el gol, manda reanudar el juego con un tiro libre indirecto, e informa a las autoridades sobre la situación.
+R-> B
+
+Un equipo realiza una sustitución durante el transcurso de la segunda parte y no se lo comunica al árbitro, este se da cuenta en el momento que el sustituto zancadillea de forma temeraria a un adversario dentro de su propia área penal. ¿Qué decisión adoptará el árbitro?
+A-Tiro libre indirecto y expulsión.
+B-Penalti y amonestación.
+C-Tiro libre indirecto y amonestación.
+D-Penalti y expulsión.
+R-> D
+
+204-Las señales...
+A-Sólo las puede realizar el árbitro y los árbitros asistentes.
+B-Las pueden realizar cualquier miembro del equipo arbitral.
+C-Sólo las puede realizar el árbitro.
+R-> B
+E-> Segun el glosario, una señal es una indicación física del árbitro o de cualquier miembro del equipo arbitral.
+
+908-Indique la afirmación correcta
+A-Todas son incorrectas.
+B-El entrenador y los demás integrantes de la lista del equipo se consideran miembros del cuerpo técnico
+C-En relación con una interferencia de un agente externo, si el balón va a entrar en la portería y dicha interferencia no impide que un jugador juegue el balón se concederá gol.
+D-Toda persona no inscrita en la lista del equipo como jugador o miembro del cuerpo técnico es un agente externo.
+R-> A
+E-> La B es claramente incorrecta pues los jugadores no son cuerpo técnico. La C es erronea porque omite parte del texto de las Reglas que indica que el jugador es defensor y que la meta no es la adversaria. La D es incorrecta porque faltan los sustitutos.
+
+180223-En el lanzamiento de un penalti durante el partido, el balón es tocado por un agente externo después de haber rebotado el balón en el poste.
+A-Se repetirá el penalti.
+B-Se repetirá el penalti o se dará el gol en su caso o el penalti como fallado.
+C-El juego será reanudado con un balón a tierra en el lugar donde fue tocado por el agente externo.
+R-> B
+E-> Si el agente externo toca el balón cuando se mueve hacia delante se repetirá el penalti. Si el agente externo no impide que un jugador defensor juegue el balón y este entra en la portería se dará gol. Si el agente externo toca el balón cuando el balón regresa repelido de un poste se dará balon a tierra y por tanto el penalti como fallado.
+
+276-Un equipo no presenta los jugadores sustitutos antes del comienzo del encuentro, por ello...
+A-Ninguna es correcta.
+B-No se le admitirán jugadores sustitutos durante el encuentro.
+C-Los sustitutos se permitirán cuando lleguen después del comienzo del partido y den su nombre al árbitro.
+D-Se admitirán sustitutos hasta el comienzo del segundo tiempo.
+R-> B
+E-> Segun la Regla 3

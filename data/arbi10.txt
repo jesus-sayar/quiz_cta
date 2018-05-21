@@ -284,7 +284,7 @@ A-6
 B-7
 C-10
 D-5
-R-> 6
+R-> A
 E-> Un equipo falla 3 y el otro marca 3.
 
 ¿Cómo debe de actuar el asistente situado en la línea de meta durante una tanda de penaltis cuando se marca gol y resulta claro que el balón ha traspasado la línea de meta?
@@ -309,10 +309,10 @@ D-Permitirá que el lanzamiento continúe y si es gol, mandará repetir el lanza
 R-> A
 
 En una tanda de penaltis, un jugador ejecuta un penalti jugando el balón hacia atrás. El árbitro…
-Mandará repetir el lanzamiento
-A-Señalará tiro libre indirecto en el punto de penalti
-B-Dará por finalizado el lanzamiento
-C-Ninguna de las anteriores es correcta
+A-Mandará repetir el lanzamiento
+B-Señalará tiro libre indirecto en el punto de penalti
+C-Dará por finalizado el lanzamiento
+D-Ninguna de las anteriores es correcta
 R-> B
 
 Can a goal be scored directly into the opponents' goal from a kick-off without touching any other player?
@@ -393,3 +393,41 @@ B-Tiro libre indirecto y expulsión.
 C-Penalti y expulsión.
 D-Tiro libre indirecto y amonestación.
 R-> C
+
+¿En qué partidos los EPTS deberán llevar la marca que el material ha sido probado oficialmente y que cumple los requisitos mínimos de seguridad?
+A-En partidos que se disputen en una competición oficial organizada bajo los auspicios de la FIFA o de las confederaciones o asociaciones nacionales de fútbol
+B-En todos los partidos, independientemente de su carácter siempre y cuando sea organizada bajo los auspicios de la FIFA o de las confederaciones o asociaciones nacionales de fútbol
+C-En partidos que se disputen en una competición oficial organizada bajo los auspicios de la FIFA o de las confederaciones
+R-> A
+
+Un jugador que no es el guardameta lanza con su mano un objeto hacia el balón, sin llegarle a impactar. ¿Qué decisión técnica tomará el árbitro?
+A-Balón a tierra
+B-Tiro libre directo donde estaba el balón o penalti
+C-Tiro libre indirecto
+D-Ninguna de las anteriores es correcta
+R-> B
+E-> Si el balón impacta está claro donde se reanuda, si no impacta deberías imaginarte un lanzamiento certero y deducir en que punto de la trayectoría con el balón impactaría. 
+
+¿Existe alguna diferencia a la hora de reanudar el juego entre la acción de un jugador que dentro del campo lanza a un objeto a un espectador que está fuera con la de lanzársela, en esa misma situación, a un jugador que está siendo atendido por lesión?
+A-No, en cuanto a la sanción técnica pero sí, en cuanto al lugar en el que reanudará el juego
+B-No
+C-Sí, en cuanto a la sanción técnica
+D-Sí, en cuanto a la sanción disciplinaria
+R-> C 
+E-> En caso de un expectador fuera sería BT y en caso de un jugador temporalmente fuera sería LD o PE.
+
+Un jugador que conduce el balón con sus pies lo levanta y se lo cede al portero con el tobillo. ¿Qué debe hacer el árbitro?
+A-Señalar tiro libre indirecto al jugador
+B-Dejar seguir el juego
+C-Señalar tiro libre indirecto al jugador y amonestarlo
+D-Señalar tiro libre indirecto al jugador y amonestarlo, siempre que el portero controle el balón con las manos
+R->C
+E-> El tobillo no pertenece al pie, por tanto sería LI y TA por CA.
+
+Un jugador ejecuta un tiro libre, lanzando el balón de forma violenta contra el árbitro, que se encuentra a cuatro metros. ¿Qué hará el árbitro?
+A-Expulsará al jugador y reanudará el juego con tiro libre indirecto o repetición del saque
+B-Expulsará al jugador y reanudará el juego con repetición del saque
+C-Expulsará al jugador y reanudará el juego con tiro libre directo o penalti
+D-Expulsará al jugador y reanudará el juego con tiro libre directo, penalti o repetición del saque
+R->D
+E-> El LD y PE está claro, la situación de repetición del saque sería el caso de un saque de meta en el que el balón no llego a salir del area de meta y por tanto no se puso en juego.
